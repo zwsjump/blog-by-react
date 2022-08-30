@@ -1,4 +1,6 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -7,7 +9,9 @@ body {
 /*   font-family: Arial;
   padding: 10px;
   background: #f1f1f1; */
-  background: #f1f1f1;
+  background-color: lightblue;
+  min-height: 100vh;
+/*   background: #f1f1f1; */
   padding: 0;
 }
 
