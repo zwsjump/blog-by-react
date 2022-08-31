@@ -7,7 +7,7 @@ let SideNav = styled.div`
   position: fixed;
   z-index: 1;
   top: 18px;
-  right: 12px;
+  right: 10px;
   background-color: lightblue;
   overflow-x: hidden;
   transition: 0.5s;

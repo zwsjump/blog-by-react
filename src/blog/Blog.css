@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 12px;
+}
+
 /* Add a gray background color with some padding */
 body {
 /*   font-family: Arial;
@@ -16,12 +20,12 @@ body {
 }
 
 /* Header/Blog Title */
-.header {
+/* .header {
   padding: 30px;
   font-size: 40px;
   text-align: center;
   background: white;
-}
+} */
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */

@@ -28,8 +28,8 @@ let ContentRow = styled.div`
 
 /* Header/Blog Title */
 let Header = styled.div`
-  padding: 30px;
-  font-size: 40px;
+  padding: 0.8em;
+  font-size: 3rem;
   text-align: center;
   background: white;
 `;
