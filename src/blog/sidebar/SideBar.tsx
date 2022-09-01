@@ -6,9 +6,10 @@ let SideNav = styled.div`
   width: 150px;
   position: fixed;
   z-index: 1;
-  top: 18px;
+  top: 0;
   right: 10px;
-  background-color: lightblue;
+/*   background-color: lightblue; */
+  background:rgba(255,0,0,0.5);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -53,6 +54,7 @@ let OpenBtn = styled.div`
 	  box-shadow: 5px 5px #aaa;
   }
   visibility: ${props => props.show ? "hidden" : ""};
+  transition-delay:${props => props.show ? "0" : "0.5s"};
 `;
 
 function SideBar() {
@@ -62,9 +64,9 @@ function SideBar() {
   }
   return (
     <div>
-      <OpenBtn show={show} onClick={()=>setShow(true)}>&#9776;</OpenBtn>
+      <OpenBtn show={show} onClick={() => setShow(true)}>&#9776;</OpenBtn>
       <SideNav show={show}>
-        <CloseBtn onClick={()=>setShow(false)}>&times;</CloseBtn>
+        <CloseBtn onClick={() => setShow(false)}>&times;</CloseBtn>
         <ItemA href="#">关于我</ItemA>
         <ItemA href="#">主页</ItemA>
         <ItemA href="#">Clients</ItemA>
